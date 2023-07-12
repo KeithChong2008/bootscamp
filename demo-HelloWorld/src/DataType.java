@@ -12,15 +12,16 @@ public class DataType {
         System.out.println("3");
         System.out.println(num);
 
-        //2.Text
+        //2.String
         String str = "Hello";
         System.out.println(str);
 
         //Reassign
         num = 10;
+
         //3.double
         double f = 1.03;
-        double f2 = 5; //will explain later
+        double f2 = 5;
 
         System.out.println(f);
         System.out.println(f2);
@@ -29,7 +30,7 @@ public class DataType {
 
         byte byte1 = -128;
         byte byte2 = 127;
-        long long1 = 222222222;
+        long long1 = 222222222;// -2^63 -> 2^63-1
         short short1 = 32627;
         short short2 = -32768;
         

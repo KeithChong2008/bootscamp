@@ -16,7 +16,7 @@ public class String1 {
         String st3 = "abc";
         boolean areTheyEqual1 = st1.equals(st2); //false
         boolean areTheyEqual2 = st1.equals(st3); //true
-        boolean areTheyEqual3 = st2.equals(st3+ "d");
+        boolean areTheyEqual3 = st2.equals(st3+ "d"); // true
 
         System.out.println(areTheyEqual1);
         System.out.println(areTheyEqual2);
@@ -24,9 +24,9 @@ public class String1 {
 
         //chatAt(2), find the index 2 of the string
         String str4 = "Hello";
+        char str5 = str4.charAt(1); 
         System.out.println(str4.charAt(0));
-        
+        System.out.println(str5);
 
-        
     }
 }
