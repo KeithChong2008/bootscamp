@@ -45,15 +45,15 @@ public class JavaQuest2 {
     }
     int year2 = 2020;
     // same as the above, but it will print out.
-    if ((year2 % 4 == 0)) {
+    if ((year2 % 4 == 0 && year2 % 100 != 0 || year2 % 400 == 0)) {
       System.out.println("2020 is a leap year.");
     }
     int year3 = 2400;
-    if ((year3 % 4 == 0)) {
+    if ((year3 % 4 == 0 && year3 % 100 != 0 || year3 % 400 == 0)) {
       System.out.println("2400 is a leap year.");
     }
     int year5 = 2100;
-    if ((year5 % 4 == 0 && year5 % 100 != 0 && year5 % 400 == 0 )) {
+    if ((year5 % 4 == 0 && year5 % 100 != 0 || year5 % 400 == 0 )) {
       System.out.println("2100 is a leap year.");
     }
   
