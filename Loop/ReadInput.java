@@ -11,7 +11,15 @@ public class ReadInput {
         for(int i = 0; i<input; ++i){
             System.out.println("Hello");
         }
-        
+    //continue
+            for(int i =0;i<6;++i){
+                System.out.println("Hello");
+                if(i>3){
+                    continue;// next
+                }
+                System.out.println("Bye");
+            //
+    }       
         
 }
 }

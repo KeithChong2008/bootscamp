@@ -1,4 +1,3 @@
-package Loop.Loops;
 public class Loops {
     public static void main(String[] args){
         // for loop
@@ -70,8 +69,6 @@ public class Loops {
             //i =3,Hello 
         }
 */      
-        
-
-
-    }
+                    
 }  
+}

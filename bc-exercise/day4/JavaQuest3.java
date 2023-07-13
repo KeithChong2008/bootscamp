@@ -11,8 +11,6 @@ public class JavaQuest3 {
    * Input a year: 2014
    * December 2014 has 31 days
    */
-  // Program toExercise3Ansumber of days that the month of a year has.
-
   public static void main(String[] strings) {
     Scanner input = new Scanner(System.in);
 
@@ -35,10 +33,10 @@ public class JavaQuest3 {
       case 2:
         MonthOfName = "February";
         if ((year % 4 == 0 && year % 100 != 0 || year % 400 == 0)) {
-            number_Of_DaysInMonth = 29;
-          }else{
-            number_Of_DaysInMonth = 28;
-          }
+          number_Of_DaysInMonth = 29;
+        }else{
+          number_Of_DaysInMonth = 28;
+        }
         break;
       case 3:
         MonthOfName = "March";
@@ -79,14 +77,11 @@ public class JavaQuest3 {
       case 12:
         MonthOfName = "December";
         number_Of_DaysInMonth = 31;
-
-        // Leap Year -> 29 days in February, otherwise 28.
-        // Definition: If a year is divisible by 4, and Not divisible by 100, OR
-        // divisible by 400.
-    
-        // Complete the other months
     }
+    
     System.out.println(MonthOfName + " " + year + " has " + number_Of_DaysInMonth + " days");
 
-  }
+  
 }
+}
+
