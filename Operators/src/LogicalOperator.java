@@ -9,7 +9,7 @@ public class LogicalOperator {
         //true, false => false 
         //false,true => False
         //false,false => false
-    //System.out.println(result);
+    System.out.println(result);
     
     // || -> Or
     // true, true => true
@@ -40,7 +40,7 @@ public class LogicalOperator {
     
     boolean result11 = !(c<13);//Asking if the event of (c<13) is false?If false, =>true
     boolean result12 = !(b==9) && c !=13 ;// true && false -> false
-    //System.out.println(result12);
+    System.out.println(result12);
 
     //Operators Precedence
     int result13 = (1+9) *3; // 30

@@ -72,7 +72,7 @@ public class Conditions {
           
         //switch
         //Simple Version
-        int dayofWeek =3;
+        int dayofWeek = 1;
         String dayName = "";
         switch (dayofWeek)/*events */{// check if the value equals to the following cases
             case 1:
@@ -95,11 +95,25 @@ public class Conditions {
                 break;//exit
             case 7:
                 dayName = "Sunday";
-                break;//exit  
+                
         } System.out.println(dayName);
+        char grades = 'F';
+        int pocketMoney = 1;
+        switch (grades){
+            case 'A' :
+                pocketMoney += 100;
+                break;
+            case 'B':
+                pocketMoney += 80;
+                break;
+            case 'C':
+                pocketMoney += 70;
+                break;
+            default:
+                pocketMoney += 50;
+        }   System.out.println(pocketMoney);
+        
     
-
-
 
     }
 }
