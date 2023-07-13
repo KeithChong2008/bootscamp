@@ -22,13 +22,10 @@ public class JavaQuest4 {
     // 3. > 0
     int counter = 0;
     for (int i = 0; i < 100; i++) { // You cannot change this line
-      if(i% 3== 0 && i% 2== 0 && i>0 ){
+      if(i% 3== 0 && i% 2== 0 && i>0 && counter<10 ){
         System.out.println(i);  
         counter++;
-      }else if(counter == 10){
-        break;
       }
-
       }
       }
     }
