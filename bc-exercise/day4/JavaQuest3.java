@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class JavaQuest3 {
   /**
    * Expected Output of Examples:
@@ -26,7 +27,7 @@ public class JavaQuest3 {
 
     // Complete the switch statement
     switch (month) {
-      case 1: 
+      case 1:
         MonthOfName = "January";
         number_Of_DaysInMonth = 31;
         break;
@@ -34,7 +35,7 @@ public class JavaQuest3 {
         MonthOfName = "February";
         if ((year % 4 == 0 && year % 100 != 0 || year % 400 == 0)) {
           number_Of_DaysInMonth = 29;
-        }else{
+        } else {
           number_Of_DaysInMonth = 28;
         }
         break;
@@ -78,10 +79,8 @@ public class JavaQuest3 {
         MonthOfName = "December";
         number_Of_DaysInMonth = 31;
     }
-    
+
     System.out.println(MonthOfName + " " + year + " has " + number_Of_DaysInMonth + " days");
 
-  
+  }
 }
-}
-

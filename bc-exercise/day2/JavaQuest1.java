@@ -30,9 +30,8 @@ public class JavaQuest1 {
     int sum = 73;
     System.out.println("The sum is " + sum);
 
-    int subtract = second - first ;
+    int subtract = second - first;
     System.out.println("The subtraction reuslt is " + subtract);
-
 
     byte b1 = 60;
     byte b2 = 70;
@@ -41,7 +40,7 @@ public class JavaQuest1 {
     System.out.println("The another sum reuslt is " + sum2);
 
     // declare two boolean variable with true and false value
-    
+
     boolean varB = false;
     boolean varC = true;
     System.out.println("The variable varB is " + varB);
@@ -50,7 +49,7 @@ public class JavaQuest1 {
     // Reading Example
     float fnumber = -130.20f; // By default, numbers are treated as double in Java.
     // Use suffix 'f' with value to make it float.
-    float dnumber = -20.5f; 
+    float dnumber = -20.5f;
     System.out.println("The variable fnumber is " + fnumber);
     System.out.println("The variable dnumber is " + dnumber);
 

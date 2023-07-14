@@ -15,7 +15,7 @@ public class JavaQuest2 {
       System.out.println("a is equals to 9");
     } else if (a < 9 && a >= 0) {
       System.out.println("a is between 0 and 8");
-    }else if (a >9){
+    } else if (a > 9) {
       System.out.println("a > 9");
     } else {
       System.out.println("a < 0");
@@ -36,7 +36,7 @@ public class JavaQuest2 {
      * If a year is divisible by 4 and not divisible by 100 or divisible by 400,
      * then, it is a leap year.
      */
-     
+
     int year1 = 2009;
     // Program a condition to check if it is a leap year.
     // But should NOT print anything.
@@ -53,9 +53,9 @@ public class JavaQuest2 {
       System.out.println("2400 is a leap year.");
     }
     int year5 = 2100;
-    if ((year5 % 4 == 0 && year5 % 100 != 0 || year5 % 400 == 0 )) {
+    if ((year5 % 4 == 0 && year5 % 100 != 0 || year5 % 400 == 0)) {
       System.out.println("2100 is a leap year.");
     }
-  
+
   }
 }
