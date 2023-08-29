@@ -36,8 +36,8 @@ public class Array2 {
 
      //for (int i =0; i<arr.length; ++i){}
        //System.out.println(Arrays.toString(SwapArray(arr)));
-       String arr = "abc";
-    System.out.println(SwapExample(arr));
+       String arr2 = "abc";
+    System.out.println(SwapExample(arr2));
 
     //StringValueof() // 19 July2023
     String str1 = String.valueOf(123); //"123"
