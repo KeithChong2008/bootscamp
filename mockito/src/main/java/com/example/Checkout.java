@@ -20,4 +20,13 @@ private Caculator caculator;
     }
     return x+y;
 }
+
+    public int multiply(int x, int y){
+      if(x >1){
+        return y+ this.caculator.multiply(x, y);
+      } else if( x==0){
+        return y+ this.caculator.substract(x, y);
+      }
+      return this.caculator.multiply(x, y)+ this.caculator.substract(x, y);
+    }
 }

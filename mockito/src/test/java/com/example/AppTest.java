@@ -60,9 +60,15 @@ public class AppTest {
    @Test
    void testMultiply(){
       when(caculator.substract(7, 9)).thenReturn(10000);
+      when(caculator.multiply(7, 9)).thenReturn(10000);
       int result = checkout.multiply(7, 9);
-      assertEquals(0, result);
+      assertEquals(10009, result);
+      }
 
+   void testMultiply2(){
+      when(caculator.substract(3, 8)).thenReturn(10000);
+      int result = checkout.multiply(3, 8);
+      assertEquals(8, result);
       }
 
 }
